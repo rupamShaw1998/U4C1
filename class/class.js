@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 
-app.use(logger);
-app.use(checkPermission);
+// app.use(logger);
+// app.use(checkPermission);
 
 app.get("/books", logger, function (req, res) {
     return res.send({route: "/books"});

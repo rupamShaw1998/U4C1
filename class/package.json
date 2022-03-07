@@ -5,7 +5,7 @@
   "main": "class.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sever": "nodemon app.js"
+    "server": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
